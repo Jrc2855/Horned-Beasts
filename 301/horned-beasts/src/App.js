@@ -3,9 +3,7 @@
 import React from 'react';
 import Header from './Header';
 import Main from './Main';
-
-
-
+import Footer from './Footer';
 
 
 // 2nd Class component
@@ -13,7 +11,9 @@ class App extends React.Component{
   render(){
     return (
       <>
-        <Header></Header>
+        <Header />
+        <Main />
+        <Footer />
       </>
     )
   }
